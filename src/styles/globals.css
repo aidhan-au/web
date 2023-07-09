@@ -1,7 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "@unocss/reset/tailwind-compat.css";
+@unocss all;
 
 html {
-  font-size: 1.125rem;
+  @apply min-h-screen;
+  @apply font-sans subpixel-antialiased;
+  @apply text-sm lg:text-base xl:text-lg;
+}
+
+body {
+  @apply text-sm lg:text-base xl:text-lg;
 }

@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: {
@@ -21,25 +22,16 @@ export default function GlobalLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-        <link rel="preconnect" href="https://fonts.bunny.net" />
-        <link
-          href="https://fonts.bunny.net/css?family=source-sans-pro:400,500,600,700,800&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.bunny.net/css?family=source-serif-pro:400,500,600,700,800&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.bunny.net/css?family=fira-code:400,700&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
       </head>
-      <body className="min-h-screen subpixel-antialiased bg-neutral-100 text-neutral-800">
+      <body
+        className=""
+        un-bg="neutral-100 dark:neutral-800"
+        un-text="neutral-800 dark:neutral-200"
+      >
         <Header />
-        <main className="font-sans text-sm lg:text-base 2xl:text-lg">
-          {children}
-        </main>
+        {children}
+        <Footer />
       </body>
     </html>
   );

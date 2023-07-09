@@ -4,14 +4,11 @@ import Icon from "@/components/micro/icon";
 
 export default function Index() {
   return (
-    <main className="text-sm lg:text-base 2xl:text-lg">
-      <Hero>
-        <h1 className="px-4 font-serif text-3xl font-semibold tracking-tight text-teal-700 lg:text-4xl xl:text-5xl">
-          We help businesses thrive online
-        </h1>
-      </Hero>
-
-      <section className="overflow-x-auto bg-neutral-100 text-neutral-700">
+    <main>
+      <section
+        className="overflow-x-auto bg-neutral-100 text-neutral-700"
+        un-border="t-1 neutral-300 dark:neutral-700"
+      >
         <div className="container flex items-center justify-between mx-auto text-center">
           <div className="p-3 hover:bg-teal-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">

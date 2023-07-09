@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 import ThemeButton from "@/components/micro/theme-btn";
@@ -14,24 +12,21 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full bg-neutral-100 text-sm font-[450] text-neutral-600 lg:text-base">
-      <div className="container flex items-center justify-between px-2 py-4 mx-auto md:px-3 md:py-5 lg:px-4 lg:py-6 xl:px-5 xl:py-7">
-        <h1 className="font-serif font-semibold tracking-tight text-[1.5rem] md:text-[1.625rem] lg:text-[1.75rem] xl:text-[2rem]">
-          <Link
-            href="/"
-            className="text-teal-800 decoration-teal-500 hover:text-teal-700"
-          >
+    <header className="w-full tracking-tighter lg:tracking-tight">
+      <div
+        className="container flex items-center justify-between mx-auto"
+        un-p="x-2 y-6 lg:x-3 lg:y-9"
+      >
+        <h1 un-text="[1.75em] lg:[2em]" un-font="serif semibold">
+          <Link href="/" className="a-primary">
             Aidhan
           </Link>
         </h1>
-        <nav className="flex justify-around font-sans">
-          <ul className="flex items-center tracking-tight">
+        <nav className="flex justify-around" un-font="sans medium">
+          <ul className="flex items-center">
             {links?.map((link) => (
               <li key={link.name}>
-                <Link
-                  href={link.href}
-                  className="p-2 hover:text-teal-600 lg:p-3 2xl:p-4"
-                >
+                <Link href={link.href} className="p-2 lg:p-4 a-primary">
                   {link.name}
                 </Link>
               </li>
