@@ -6,23 +6,17 @@ export default function Index() {
   return (
     <main className="text-sm lg:text-base 2xl:text-lg">
       <Hero>
-        <span className="">
-          <h1 className="px-4 font-serif text-4xl font-bold italic tracking-tight text-teal-700 lg:text-5xl xl:text-6xl">
-            We help businesses{" "}
-            <em className="text-teal-600 underline decoration-4 underline-offset-4">
-              thrive
-            </em>{" "}
-            online.
-          </h1>
-        </span>
+        <h1 className="px-4 font-serif text-3xl font-semibold tracking-tight text-teal-700 lg:text-4xl xl:text-5xl">
+          We help businesses thrive online
+        </h1>
       </Hero>
 
       <section className="overflow-x-auto bg-neutral-100 text-neutral-700">
-        <div className="container mx-auto flex items-center justify-between text-center">
+        <div className="container flex items-center justify-between mx-auto text-center">
           <div className="p-3 hover:bg-teal-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Design"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -42,7 +36,7 @@ export default function Index() {
           <div className="p-3 hover:bg-cyan-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Development"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -57,7 +51,7 @@ export default function Index() {
           <div className="p-3 hover:bg-sky-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Brand"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -72,7 +66,7 @@ export default function Index() {
           <div className="p-3 hover:bg-blue-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Marketing"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -86,7 +80,7 @@ export default function Index() {
           <div className="p-3 hover:bg-violet-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Content"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -101,7 +95,7 @@ export default function Index() {
           <div className="p-3 hover:bg-fuchsia-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Strategy"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -120,7 +114,7 @@ export default function Index() {
           <div className="p-3 hover:bg-pink-500 hover:text-white lg:p-4 xl:p-5 2xl:p-6">
             <h2 className="font-medium tracking-tight">
               <Icon
-                className="mb-1 inline-block lg:mr-2 xl:mr-3 2xl:mr-4"
+                className="inline-block mb-1 lg:mr-2 xl:mr-3 2xl:mr-4"
                 label="Infrastructure"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -140,23 +134,23 @@ export default function Index() {
       </section>
       <section className="w-full bg-teal-100 text-neutral-700">
         <div className="flex">
-          <div className="h-full w-48 bg-teal-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="w-48 h-full p-4 bg-teal-200 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/design">Design</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 <Link href="#design-responsive">Responsive</Link>
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-4 lg:p-8 xl:p-12">
+          <div className="container p-4 mx-auto lg:p-8 xl:p-12">
             <div id="design-responsive">
               {/* On - any - surface - acress a phone, desktop and magazine/print */}
               Responsive design drives customer response. Now that&rsquo;s what
@@ -169,131 +163,131 @@ export default function Index() {
       </section>
       <section className="w-full bg-cyan-100 text-neutral-700">
         <div className="flex">
-          <div className="h-fullw-48 bg-cyan-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="p-4 h-fullw-48 bg-cyan-200 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/development">Development</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Responsive
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-12">dsfs</div>
+          <div className="container p-12 mx-auto">dsfs</div>
         </div>
       </section>
       <section className="w-full bg-sky-100 text-neutral-700">
         <div className="flex">
-          <div className="h-fullw-48 bg-sky-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="p-4 h-fullw-48 bg-sky-200 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/brand">Brand</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Responsive
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-12">dsfs</div>
+          <div className="container p-12 mx-auto">dsfs</div>
         </div>
       </section>
       <section className="w-full bg-blue-100 text-neutral-700">
         <div className="flex">
-          <div className="h-fullw-48 bg-blue-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="p-4 bg-blue-200 h-fullw-48 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/marketing">Marketing</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Responsive
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-12">dsfs</div>
+          <div className="container p-12 mx-auto">dsfs</div>
         </div>
       </section>
 
       <section className="w-full bg-violet-100 text-neutral-700">
         <div className="flex">
-          <div className="h-fullw-48 bg-violet-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="p-4 h-fullw-48 bg-violet-200 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/content">Content</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Responsive
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-12">dsfs</div>
+          <div className="container p-12 mx-auto">dsfs</div>
         </div>
       </section>
 
       <section className="w-full bg-fuchsia-100 text-neutral-700">
         <div className="flex">
-          <div className="h-fullw-48 bg-fuchsia-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="p-4 h-fullw-48 bg-fuchsia-200 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/strategy">Strategy</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Responsive
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-12">dsfs</div>
+          <div className="container p-12 mx-auto">dsfs</div>
         </div>
       </section>
 
       <section className="w-full bg-pink-100 text-neutral-700">
         <div className="flex">
-          <div className="h-fullw-48 bg-pink-200 p-4 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
+          <div className="p-4 bg-pink-200 h-fullw-48 lg:w-72 lg:p-8 xl:w-96 xl:p-12">
             <h2 className="pr-2 text-3xl font-bold tracking-tighter lg:pr-6 lg:text-4xl xl:pr-8 xl:text-5xl">
               <Link href="/services/infrastructure">Infrastructure</Link>
             </h2>
-            <ul className="mx-1 my-2 border-l-2 border-neutral-600 font-medium tracking-tight lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+            <ul className="mx-1 my-2 font-medium tracking-tight border-l-2 border-neutral-600 lg:mx-2 lg:my-4 xl:mx-3 xl:my-6">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Responsive
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Engaging
               </li>
-              <li className="border-l-2 border-transparent px-4 py-2 hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
+              <li className="px-4 py-2 border-l-2 border-transparent hover:border-neutral-600 lg:px-6 lg:py-3 xl:px-8 xl:py-4">
                 Contemporary
               </li>
             </ul>
           </div>
-          <div className="container mx-auto p-12">dsfs</div>
+          <div className="container p-12 mx-auto">dsfs</div>
         </div>
       </section>
     </main>

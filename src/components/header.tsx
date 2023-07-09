@@ -10,13 +10,13 @@ export default function Header() {
   const links = [
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Projects", href: "/projects" },
+    { name: "Portfolio", href: "/portfolio" },
   ];
 
   return (
     <header className="w-full bg-neutral-100 text-sm font-[450] text-neutral-600 lg:text-base">
-      <div className="flex items-center justify-between p-2 md:p-3 lg:p-4 xl:p-5 2xl:p-6">
-        <h1 className="font-serif text-2xl font-semibold tracking-tight md:text-[1.75rem] lg:text-[2rem]">
+      <div className="container flex items-center justify-between px-2 py-4 mx-auto md:px-3 md:py-5 lg:px-4 lg:py-6 xl:px-5 xl:py-7">
+        <h1 className="font-serif font-semibold tracking-tight text-[1.5rem] md:text-[1.625rem] lg:text-[1.75rem] xl:text-[2rem]">
           <Link
             href="/"
             className="text-teal-800 decoration-teal-500 hover:text-teal-700"
@@ -36,17 +36,17 @@ export default function Header() {
                 </Link>
               </li>
             ))}
-            <div className="ml-2 flex border-l border-neutral-300 pl-2 lg:ml-3 lg:pl-3 xl:ml-4 xl:pl-4">
-              {/* <li>
+            {/* <div className="flex pl-2 ml-2 border-l border-neutral-300 lg:ml-3 lg:pl-3 xl:ml-4 xl:pl-4">
+              <li>
                 <ThemeButton />
-              </li> */}
+              </li>
               <li>
                 <SearchButton />
               </li>
               <li>
                 <UserIcon />
               </li>
-            </div>
+            </div> */}
           </ul>
         </nav>
       </div>

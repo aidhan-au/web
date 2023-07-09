@@ -35,7 +35,7 @@ export default function GlobalLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-neutral-200  text-neutral-800 subpixel-antialiased">
+      <body className="min-h-screen subpixel-antialiased bg-neutral-100 text-neutral-800">
         <Header />
         <main className="font-sans text-sm lg:text-base 2xl:text-lg">
           {children}

@@ -1,7 +1,7 @@
 export default function Hero(props: { children: React.ReactNode }) {
   return (
-    <section className="bg-neutral-200 py-32 text-neutral-700 lg:py-48 xl:py-64">
-      <div className="container mx-auto flex items-center justify-around">
+    <section className="py-16 bg-neutral-200 text-neutral-700 lg:py-32 xl:py-48">
+      <div className="container flex items-center justify-between mx-auto">
         {props.children}
       </div>
     </section>
